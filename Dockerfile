@@ -1,5 +1,5 @@
-FROM alpine:3.7@sha256:8421d9a84432575381bfabd248f1eb56f3aa21d9d7cd2511583c68c9b7511d10
+FROM alpine:3.17.2@sha256:e2e16842c9b54d985bf1ef9242a313f36b856181f188de21313820e177002501
 
-LABEL maintainer "Leonardo Gatica <lgatica@protonmail.com>"
+LABEL maintainer "Andrey Paskal <andrey@paskal.email>"
 
 RUN apk add --no-cache openssh-client
